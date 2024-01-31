@@ -1,0 +1,26 @@
+.mini-card {
+    width: 156px;
+    background-color: #fff;
+    height: 130px;
+    margin-top: 368px;
+    /* position: absolute; */
+    margin-left: -24px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.mini-card .title {
+    font-size: 1em;
+    color: #7D7D7D;
+}
+
+.mini-card .date {
+    color: #734A00;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.mini-card .content {
+    font-size: 0.8em;
+}

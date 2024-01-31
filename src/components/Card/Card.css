@@ -1,0 +1,40 @@
+.card {
+    max-width: 400px;
+    width: 300px;
+    min-width: 300px;
+    height: 217px;
+    border-radius: 15px;
+    padding-left: 20px;
+    position: relative;
+    background-color: #fff;
+    text-align: left;
+    flex: 0 1 calc(25% - 1em);
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 1.4em;
+    color: #222;
+}
+
+.metric {
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.card-cont {
+    color: #454545;
+    font-size: 0.7em;
+    margin-top: -10px;
+}
+
+.link {
+    color: var(--Dark-Orange, #734A00);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -20px;
+    letter-spacing: -0.3px;
+}
