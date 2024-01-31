@@ -25,7 +25,13 @@
     color: #111;
     margin-top: 10px;
 }
-
+.nav-items li svg {
+    padding-right: 10px;
+}
+.nav-items li:hover {
+    background-color: rgba(255, 247, 232, 1);
+    transition: all 0.3s ease-in-out;
+}
 .nav-items li a {
     text-decoration: none;
     color: #111;
@@ -41,6 +47,7 @@
     border: 1px solid var(--Light-Gray, #F1F1F1);
     background: var(--White, #FFF);
     padding: 10px;
+    margin-left: 30px;
 }
 
 .profile-sec {
@@ -57,5 +64,22 @@
     line-height: normal;
     letter-spacing: -0.25px;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 0;
+    position: absolute;
+    bottom: 204px;
+}
+.profile-sec .settings {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    cursor: pointer;
+}
+.profile-sec .settings .logout {
+    color: #B01212;
+}
+.profile-sec .settings li svg {
+    margin-left: -7px;
+    padding-right: 24px;
+    padding-top: 17px;
 }

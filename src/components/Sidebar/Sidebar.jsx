@@ -181,7 +181,7 @@ function Sidebar(props) {
               </svg>
               Settings
             </li>
-            <li>
+            <li className="logout">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

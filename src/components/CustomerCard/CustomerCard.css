@@ -6,7 +6,7 @@
     flex-direction: column;
     gap: 16px;
     height: 430px;
-    width: 520px;
+    width: 500px;
     overflow: hidden;
     padding: 24px 0px;
     position: relative;
@@ -51,6 +51,9 @@
     cursor: pointer;
 }
 
+.customer .frame-2 {
+    display: none;
+}
 .widget .sort-by-newest {
     color: var(--variable-collection-dark-gray);
     font-family: "Inter", Helvetica;
